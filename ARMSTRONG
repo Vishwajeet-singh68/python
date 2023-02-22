@@ -1,0 +1,17 @@
+#check the number is armstrong or not;
+n=int(input("Enter a numebr:"))
+c=0
+sum=0
+tmp=n
+while(tmp>0):
+    tmp=tmp//10
+    c=c+1
+tmp=n    
+while(tmp>0):
+    r=tmp%10
+    sum+=(r**c)
+    tmp//=10
+if(sum==n):
+    print("ARMSTRONG")
+else:
+    print("NOT ARMSTRONG")         
