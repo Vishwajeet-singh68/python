@@ -1,0 +1,16 @@
+#Program to print n terms of fibonnaci series:
+
+a=0
+b=1
+nt=a+b
+i=int(input("Enter the terms"))
+print("Fibonacci series:")
+print(a)
+print(b)
+while(i>2):
+    nt=a+b
+    print(nt)
+    a=b
+    b=nt
+    i=i-1
+
