@@ -1,0 +1,11 @@
+#Total number of currencies in given amount.
+n=int(input("Enter the amount:"))
+n=n-100
+a=n/2000
+print("2000 notes=",int(a))
+n=n%2000
+b=n/500
+print("500 notes=",int(b))
+n=n%500
+c=n/100
+print("100 notes=",int(c+1))              
